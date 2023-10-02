@@ -1,11 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         int amount = 15505;
-        boolean bonus = true;
+        int bonus = 1;
 
-        int accrual = bonus ? 1 : 0;
-
-        int mile = amount / 20 * accrual;
+        int mile = amount / 20 * bonus;
 
         System.out.println("Количество бонусных миль:" +mile);
 
