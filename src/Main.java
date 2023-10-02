@@ -1,17 +1,31 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        int amount = 15505;
+        boolean Bonus = true;
 
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        int bonus = Bonus ? 1 : 0;
 
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
-        }
+        int mile = amount / 20 * bonus;
+
+        System.out.println("Количество бонусных миль:" +mile);
+
+        // Объявляете переменные для входных данных и
+        // параметров программы: одну для хранения
+        // стоимости билета, другую для хранения количества
+        // рублей для одной бонусной мили
+
+        // Рассчитываете количество бонусных миль, используя
+        // значения заведённых переменных. Ответ сохраняете в
+        // новую переменную и выводите на экран
     }
 }
+
+
+//Авиаперевозчики предлагают различные бонусные программы,
+// начисляющие бесплатные мили за перелёты. Формула расчёта следующая:
+// за каждые 20 рублей, потраченные на билет, начисляется 1 миля. Дробные мили не начисляются.
+//
+//Например, при стоимости билета в 13 676 рублей должно начислиться 683 бонусов.
+//
+//Нужно создать приложение, рассчитывающее количество начисленных миль за купленный билет.
+// Стоимость билета вы выбираете сами — заполняете переменную, в которой она будет храниться.
