@@ -5,7 +5,7 @@ public class Main {
 
         int mile = amount / bonus;
 
-        System.out.println("Количество бонусных миль:" +mile);
+        System.out.println("Количество бонусных миль:" + mile);
 
         // Объявляете переменные для входных данных и
         // параметров программы: одну для хранения
